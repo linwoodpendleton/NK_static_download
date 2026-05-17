@@ -1,0 +1,30 @@
+{
+  "base_url": "https://github.com/linwoodpendleton/NK_static_download/releases/download",
+  "components": {
+    "nginx": {
+      "tag": "nginx",
+      "variants": ["normal", "waf"],
+      "archs": ["x86_64", "aarch64"],
+      "naming": "nginx-{variant}-{arch}.tar.gz"
+    },
+    "mysql": {
+      "tag": "mysql",
+      "versions": ["5.7.44", "8.0.41", "8.4.4"],
+      "archs": ["x86_64", "aarch64"],
+      "naming": "mysql-{version}-{arch}.tar.gz"
+    },
+    "mariadb": {
+      "tag": "mariadb",
+      "versions": ["10.6.20", "10.11.10", "11.4.4", "11.8.2"],
+      "archs": ["x86_64", "aarch64"],
+      "naming": "mariadb-{version}-{arch}.tar.gz"
+    },
+    "php": {
+      "tag": "php",
+      "versions": ["5.2.17", "5.4.45", "5.6.40", "7.0.33", "7.1.33", "7.2.34", "7.3.33", "7.4.33", "8.0.30", "8.1.32", "8.2.27", "8.3.16", "8.4.4", "8.5.0"],
+      "archs": ["x86_64", "aarch64"],
+      "naming": "php-{version}-{arch}.tar.gz",
+      "note": "每个 PHP 版本带 ~88 个扩展"
+    }
+  }
+}

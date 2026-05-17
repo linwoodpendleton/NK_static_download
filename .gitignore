@@ -1,0 +1,9 @@
+# tarball 走 GitHub Releases,不进 git 历史
+*.tar.gz
+*.tar.gz.md5
+*.tar.xz
+*.zip
+nginx/
+mysql/
+mariadb/
+php/
